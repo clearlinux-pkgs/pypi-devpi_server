@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-devpi_server
-Version  : 6.9.0
-Release  : 2
-URL      : https://files.pythonhosted.org/packages/65/27/cd2e90f77b44f4c97f6ddc5e6a90c5448c865d95a54bf837155283d5a7b9/devpi-server-6.9.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/65/27/cd2e90f77b44f4c97f6ddc5e6a90c5448c865d95a54bf837155283d5a7b9/devpi-server-6.9.0.tar.gz
+Version  : 6.9.1
+Release  : 3
+URL      : https://files.pythonhosted.org/packages/e3/74/01e46f1b3edaf1292d3c4cf5c94798d6bd1f02df80989d9405a49ec64c56/devpi-server-6.9.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/e3/74/01e46f1b3edaf1292d3c4cf5c94798d6bd1f02df80989d9405a49ec64c56/devpi-server-6.9.1.tar.gz
 Summary  : devpi-server: reliable private and pypi.org caching server
 Group    : Development/Tools
 License  : MIT
@@ -83,10 +83,10 @@ python3 components for the pypi-devpi_server package.
 
 
 %prep
-%setup -q -n devpi-server-6.9.0
-cd %{_builddir}/devpi-server-6.9.0
+%setup -q -n devpi-server-6.9.1
+cd %{_builddir}/devpi-server-6.9.1
 pushd ..
-cp -a devpi-server-6.9.0 buildavx2
+cp -a devpi-server-6.9.1 buildavx2
 popd
 
 %build
@@ -94,7 +94,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684864987
+export SOURCE_DATE_EPOCH=1688409612
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
