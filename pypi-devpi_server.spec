@@ -5,7 +5,7 @@
 #
 Name     : pypi-devpi_server
 Version  : 6.9.2
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/a7/96/3e1a5d2b9237dd0baa8dabc7f26ee2248edc5785036df3c504ac134ced80/devpi-server-6.9.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a7/96/3e1a5d2b9237dd0baa8dabc7f26ee2248edc5785036df3c504ac134ced80/devpi-server-6.9.2.tar.gz
 Summary  : devpi-server: reliable private and pypi.org caching server
