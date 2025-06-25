@@ -1,5 +1,5 @@
 PKG_NAME := pypi-devpi_server
-URL = https://files.pythonhosted.org/packages/8b/a4/2f2bdc54710d05b0da09059821f6bbd4dcdfdc26b2a41ea095a9781d5aa6/devpi-server-6.15.0.tar.gz
+URL = https://files.pythonhosted.org/packages/f4/0b/0d2c883ae022e64089a897e6cc7e0e4aa774026400041f2b6cbecdcdec4b/devpi_server-6.16.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
